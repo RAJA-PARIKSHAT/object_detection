@@ -8,7 +8,7 @@ args.add_argument("-i", "--IMAGEPATH", required = False, help = "Path to a singl
 args.add_argument("-wb", "--WEBCAM", required = False, action= 'store_true',  help = "To run inference on webcam")
 args.add_argument("-id", "--IMAGEDIRECTORY", required = False, help = "Path to input_images directory, inference will be done on input_images one by one")
 args.add_argument("-v", "--VIDEOPATH", required = False, help = "Path to a video file")
-args.add_argument("-m", "--MODEL", required = False, default= "models/yolov5s.onnx", help = "Path to ONNX model, Default YOLOv5s will be loaded")
+args.add_argument("-m", "--MODEL", required = False, default= "models/yolov6s.onnx", help = "Path to ONNX model, Default YOLOv5s will be loaded")
 args.add_argument("-cl", "--CLASSES", required = False, default= "coco.names", help = "Path to classes.names file. Default coco classes will be loaded")
 args.add_argument("-iW", "--WIDTH", required = False, default = 640, help = "Required input_image width")
 args.add_argument("-iH", "--HEIGHT", required = False, default = 640, help = "Required input_image height")
